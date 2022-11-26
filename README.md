@@ -10,7 +10,7 @@
 # 👋🏼 Introduction
 
 <h3>Trabalho Prático - Desenvolvimento c/ Ionic</h3>
-Neste trabalho prático pretende-se criar uma aplicação que seja o vosso perfil profissional.
+Neste trabalho prático pretende-se criar uma aplicação para ser o perfil profissional.
 
 # 🔒 Requisitos
 <p> 
@@ -20,16 +20,16 @@ Neste trabalho prático pretende-se criar uma aplicação que seja o vosso perfi
   - White / Dark mode 🌗
 </p>
 <p> 
-  -  Ao clicar em educação, certificações ou projetos abrir uma modal com detalhes
+  -  Ao clicar em educação, certificações ou projetos abrir uma modal com detalhes 📚
 </p>
 <p>
-  - Figma ou Mockup da aplicação
+  - Figma ou Mockup da aplicação 🎨
 </p>
 <p>
-  - Utilizar Ionic c/ Angular, utilizar o GitHub e associar o prof ao projeto
+  - Utilizar Ionic c/ Angular, utilizar o GitHub e associar o prof ao projeto  👨🏽‍💻
 </p>
 <p>
-  - Obrigatório que todos os dados sejam carregados dinamicamente
+  - Obrigatório que todos os dados sejam carregados dinamicamente 🎲
 </p>
 
 # 🎯 Bónus
