@@ -10,7 +10,6 @@
 # 👋🏼 Introduction
 
 <h3>Trabalho Prático - Desenvolvimento c/ Ionic</h3>
-<br />
 Neste trabalho prático pretende-se criar uma aplicação que seja o vosso perfil profissional.
 
 # 🔒 Requisitos
