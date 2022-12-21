@@ -1,1 +1,36 @@
+#tab-button-tab2 {
+    ion-icon {
+        // colocar isto à frente do ion-tab-bar
+        padding: 10px !important;
+        border-radius: 50% !important;
+        width: 40px;
+        height: 40px;
+        margin-top: -30px;
+        border: unset;
+        background: #fff; //button color
+        box-shadow: 0 0 10px rgb(83, 83, 83); //button shadow
+    }
+}
+ 
+.tab-selected,
+ion-tab-button {
+    background: transparent;
+}
+ 
+ion-tab-bar {
+    background: transparent;
+    overflow: visible;
+    border: unset;
+    height: 120px;
+}
+ 
+#tab-button-tab2 ion-icon {
+    color: black;
+}
+
+ion-icon{
+    color: black;
+}
+
+
 
