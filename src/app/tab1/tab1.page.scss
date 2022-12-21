@@ -1,0 +1,33 @@
+ion-title{
+    margin-left: 64px;
+}
+.title{
+    margin-top: 170px;
+    h1 {
+        font-size: 90px;
+        font-weight: bold;
+    }
+    margin-left: 64px;
+    h2 {
+        font-size: 25px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+}
+
+.infos{
+    margin-top: 20px;
+    margin-left: 64px;
+    h3 {
+        font-size: 20px;
+    }
+}
+
+// alinhar todos os icons do ionic na vertical e horizontal do texto
+ion-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
