@@ -1,13 +1,24 @@
 ion-title{
-    margin-left: 64px;
+    margin-left: -120px;
+    margin-top: 0px;
+    font-size: 25px;
+    
 }
+ion-toolbar{
+    height: 50px;
+}
+ion-header{
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
 .title{
     margin-top: 170px;
     h1 {
         font-size: 90px;
         font-weight: bold;
     }
-    margin-left: 64px;
+    text-align: center;
     h2 {
         font-size: 25px;
         margin-top: -20px;
@@ -15,19 +26,52 @@ ion-title{
     }
 }
 
-.infos{
-    margin-top: 20px;
-    margin-left: 64px;
-    h3 {
-        font-size: 20px;
-    }
-}
 
-// alinhar todos os icons do ionic na vertical e horizontal do texto
-ion-icon {
-    margin-top: 10px;
-    margin-left: 10px;
-    cursor: pointer;
+.container{
+    margin-top: 30px;
+    position: relative;
+}
+.text {
+    float: left;
+    width: 50%;
+    margin-left: 80px;
+    font-size: 25px;
+  }
+  
+  .image {
+    float: left;
+    margin-left: 20px;
+  }
+
+  .text, .image {
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  ion-icon{
+    font-size: 30px;
+    display: inline-block;
+  }
+
+.button {
+    margin: auto;
+    width: fit-content;
+    margin-top: 280px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: black;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 30px;
+    .next{
+        font-size: 20px;
+        margin-left: 30px;
+    }
 }
 
 

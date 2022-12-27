@@ -1,27 +1,45 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Skills
+      <b>
+        Skills
+      </b>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Skills</ion-title>
-    </ion-toolbar>
-  </ion-header>
+
   <div class="title-content"> 
     <div class="title">
       <h1>Skills!</h1>
       <h2>Always <span><b>Grow Up</b></span></h2>
     </div>
   </div>
-  <div class="infos">
-    <h3> Design<ion-icon class="first-icon" name="information-circle"></ion-icon></h3>
-    <h3> Front - End<ion-icon name="information-circle"></ion-icon></h3>
-    <h3> Back - End<ion-icon name="information-circle"></ion-icon></h3>
 
+  <div class="container">
+    <div class="row">
+      <div class="text">Design</div>
+      <div class="image">
+        <ion-icon name="alert-circle"></ion-icon>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text">Front-End</div>
+      <div class="image">
+        <ion-icon name="alert-circle"></ion-icon>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text">Back-End</div>
+      <div class="image">
+        <ion-icon name="alert-circle"></ion-icon>
+      </div>
+    </div>
   </div>
+  <button class="button">
+    School
+    <ion-icon class="next" name="arrow-forward"></ion-icon>
+  </button>  
+  
 </ion-content>
