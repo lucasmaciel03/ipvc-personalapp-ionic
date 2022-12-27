@@ -1,17 +1,44 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      <b>
+        Home
+      </b>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="container">
+    <div class="row">
+      <div class="image">
+        <img src="../../assets/imgs/myPhoto.jpg" alt="descrição da imagem">
+      </div>
+      <div class="text">Hi!</div>
+    </div>
+    <div class="description">
+      <div class="desc">I'm <b>Lucas Maciel</b></div>
+    </div>
+    <div class="infos">
+      <div class="inf">Web Dev student, based in Póvoa de Varzim, Porto</div>
+    </div>
+    <div class="images">
+      <div class="icon">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </div>
+      <div class="icon">
+        <ion-icon name="logo-github"></ion-icon>
+      </div>
+      <div class="icon">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </div>
+      <div class="icon">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </div>
+      <button class="button">
+        Skills
+        <ion-icon class="next" name="arrow-forward"></ion-icon>
+      </button>  
+    </div>
+  </div>
 </ion-content>
