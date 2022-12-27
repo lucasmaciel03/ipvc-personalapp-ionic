@@ -1,17 +1,72 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 5
+      <b>
+        Comments
+      </b>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 5</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div>
+    <h1>Comments!</h1>
+  </div>
+  <ion-card>
+    <ion-slides>
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Rodrigo Mesquita</ion-card-title>
+            <ion-card-subtitle>Friend</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            It was a pleasure to work with Lucas, a good friend and excellent classmate.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>André Maia</ion-card-title>
+            <ion-card-subtitle>Friend</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            It was a pleasure to work with Rodrigo, a good friend and excellent classmate.
+          </ion-card-content>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
+  <div>
+    <h2>Leave your Comment!</h2>
+    <ion-card>
+      <ion-card-header>
 
-  <app-explore-container name="Tab 5 page"></app-explore-container>
+        <ion-item fill="solid">
+          <ion-label position="floating">Name:</ion-label>
+          <ion-input type="text" required></ion-input>
+          <ion-note slot="helper">First and Last Name</ion-note>
+          <ion-note slot="error">Name is required</ion-note>
+
+        </ion-item>
+        <ion-select placeholder="Relation">
+          <ion-select-option value="opcao1">Friend</ion-select-option>
+          <ion-select-option value="opcao2">Client</ion-select-option>
+          <ion-select-option value="opcao3">Teacher</ion-select-option>
+          <ion-select-option value="opcao3">Classmate</ion-select-option>
+        </ion-select>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item counter="true">
+          <ion-label position="floating"><b>Message:</b></ion-label>
+          <ion-input maxlength="100"></ion-input>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <button class="button">
+    Submit
+    <ion-icon class="next" name="arrow-forward"></ion-icon>
+  </button>  
 </ion-content>
