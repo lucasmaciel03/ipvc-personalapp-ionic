@@ -15,19 +15,81 @@
     <div class="desc"><b>CTeSP</b></div>
     <div class="info">Desenvolvimneto Web e Multimédia</div>
   </div>
-  <button class="button">
+  <button class="button" id="open-modal" expand="block">
     Know More
     <ion-icon class="more" name="add"></ion-icon>
   </button>  
   <div class="container2">
-    <div class="start">2021</div>
-    <div class="end" >2023</div>
-    <div class="desc"><b>CTeSP</b></div>
-    <div class="info">Desenvolvimneto Web e Multimédia</div>
+    <div class="start">2018</div>
+    <div class="end" >2021</div>
+    <div class="desc"><b>Curso Profissional</b></div>
+    <div class="info">Técnico Informática de Gestão</div>
   </div>
-  <button class="button">
+  <button class="button" id="open-modal-2" expand="block2"> 
     Know More
     <ion-icon class="more" name="add"></ion-icon>
   </button>  
   
 </ion-content>
+
+<ion-modal
+trigger="open-modal"
+[initialBreakpoint]="0.25"
+[breakpoints]="[0, 0.25, 0.5, 0.75]"
+handleBehavior="cycle"
+>
+<ng-template>
+  <ion-content class="ion-padding">
+    <div class="ion-margin-top">
+      <h1>CTeSP</h1>
+      <h2>Desenvolvimento Web e Multimédia</h2>
+      <h4>Escola Superior Tecnologia e Gestão @ Viana do Castelo </h4>
+      <div>
+        <h5>Principais áreas de estudo:</h5>
+        <li>Desenvolvimento Web</li>
+        <li>Desenvolvimento de Aplicações Móveis</li>
+        <li>Base de Dados</li>
+        <li>Programação</li>
+        <li>Redes</li>
+        <li>Modelação 3D</li>
+        <li>UI/UX</li>
+        <li>Marketing Digital</li>
+        <li>...</li>
+      </div>
+      <h5>Data de ínicio: 2021</h5>
+      <h5>Data de fim: 2023</h5>
+    </div>
+  </ion-content>
+</ng-template>
+</ion-modal>
+
+<ion-modal
+trigger="open-modal-2"
+[initialBreakpoint]="0.25"
+[breakpoints]="[0, 0.25, 0.5, 0.75]"
+handleBehavior="cycle"
+>
+<ng-template>
+  <ion-content class="ion-padding">
+    <div class="ion-margin-top">
+      <h1>Curso Profissional</h1>
+      <h2>Técnico Informática de Gestão</h2>
+      <h4>Escola Secundária Rocha Peixoto @ Póvoa de Varzim</h4>
+      <div>
+        <h5>Principais áreas de estudo:</h5>
+        <li>Sistemas Operativos</li>
+        <li>Redes de Computadores</li>
+        <li>Base de Dados</li>
+        <li>Programação</li>
+        <li>Gestão de Projetos</li>
+        <li>Segurança da Informação</li>
+        <li>Suporte Técnico</li>
+        <li>Gestão Empresarial</li>
+        <li>...</li>
+      </div>
+      <h5>Data de ínicio: 2018</h5>
+      <h5>Data de fim: 2021</h5>
+    </div>
+  </ion-content>
+</ng-template>
+</ion-modal>
