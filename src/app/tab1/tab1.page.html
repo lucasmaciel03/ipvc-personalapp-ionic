@@ -1,6 +1,6 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
+<ion-header [translucent]="true" class="hd">
+  <ion-toolbar class="tb">
+    <ion-title class="tt">
       <b>
         Skills
       </b>
@@ -21,25 +21,198 @@
     <div class="row">
       <div class="text">Design</div>
       <div class="image">
-        <ion-icon name="alert-circle"></ion-icon>
+        <ion-icon name="alert-circle" (click)="setOpen(true)"></ion-icon>
       </div>
     </div>
     <div class="row">
       <div class="text">Front-End</div>
       <div class="image">
-        <ion-icon name="alert-circle"></ion-icon>
+        <ion-icon name="alert-circle" (click)="setOpen2(true)"></ion-icon>
       </div>
     </div>
     <div class="row">
       <div class="text">Back-End</div>
       <div class="image">
-        <ion-icon name="alert-circle"></ion-icon>
+        <ion-icon name="alert-circle" (click)="setOpen3(true)"></ion-icon>
       </div>
     </div>
   </div>
-  <button class="button">
+  <button class="btn">
     School
     <ion-icon class="next" name="arrow-forward"></ion-icon>
   </button>  
-  
 </ion-content>
+
+      <!-- Modal Design start -->
+      <ion-modal [isOpen]="isModalOpen">
+        <ng-template>
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Design</ion-title>
+              <ion-buttons slot="end">
+                <ion-button (click)="setOpen(false)">Close</ion-button>
+              </ion-buttons>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="mdl-title">
+              <h1>My <b>Contact</b> List</h1>
+            </div>
+            <ion-list>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2><b>Adobe Photoshop</b></h2>
+                  <p>Photo Editor</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=a"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Daniel Smith</h2>
+                  <p>Product Designer</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=d"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Greg Smith</h2>
+                  <p>Director of Operations</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=e"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Zoey Smith</h2>
+                  <p>CEO</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ng-template>
+      </ion-modal>
+      <!-- Modal Design end -->
+
+      <!-- Modal Front-End start -->
+      <ion-modal [isOpen]="isModalOpen2">
+        <ng-template>
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Front-End</ion-title>
+              <ion-buttons slot="end">
+                <ion-button (click)="setOpen2(false)">Close</ion-button>
+              </ion-buttons>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="mdl-title">
+              <h1>My <b>Contact</b> List</h1>
+            </div>
+            <ion-list>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2><b>Adobe Photoshop</b></h2>
+                  <p>Photo Editor</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=a"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Daniel Smith</h2>
+                  <p>Product Designer</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=d"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Greg Smith</h2>
+                  <p>Director of Operations</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=e"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Zoey Smith</h2>
+                  <p>CEO</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ng-template>
+      </ion-modal>
+      <!-- Modal Front-End end -->
+
+      <!-- Modal Back-End start -->
+      <ion-modal [isOpen]="isModalOpen3">
+        <ng-template>
+          <ion-header>
+            <ion-toolbar>
+              <ion-title>Back-End</ion-title>
+              <ion-buttons slot="end">
+                <ion-button (click)="setOpen3(false)">Close</ion-button>
+              </ion-buttons>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+            <div class="mdl-title">
+              <h1>My <b>Contact</b> List</h1>
+            </div>
+            <ion-list>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2><b>Adobe Photoshop</b></h2>
+                  <p>Photo Editor</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=a"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Daniel Smith</h2>
+                  <p>Product Designer</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=d"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Greg Smith</h2>
+                  <p>Director of Operations</p>
+                </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-avatar slot="start">
+                  <ion-img src="https://i.pravatar.cc/300?u=e"></ion-img>
+                </ion-avatar>
+                <ion-label>
+                  <h2>Zoey Smith</h2>
+                  <p>CEO</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-content>
+        </ng-template>
+      </ion-modal>
+      <!-- Modal Back-End end -->
