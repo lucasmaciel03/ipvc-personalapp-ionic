@@ -5,8 +5,8 @@
         School
       </b>
     </ion-title>
-    <ion-buttons slot="end">
-      <input type="checkbox" name="" id="darkmode-toggle">
+    <ion-buttons slot="end" (click)="changeDarkMode()">
+      <input type="checkbox" name="isChecked" [(ngModel)]="isChecked">
       <label for="darkmode-toggle"></label>
     </ion-buttons>
   </ion-toolbar>

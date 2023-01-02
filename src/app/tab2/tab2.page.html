@@ -5,8 +5,8 @@
         Home
       </b>
     </ion-title>
-    <ion-buttons slot="end">
-      <input type="checkbox" name="" id="darkmode-toggle">
+    <ion-buttons slot="end" (click)="changeDarkMode()">
+      <input type="checkbox" name="isChecked" [(ngModel)]="isChecked">
       <label for="darkmode-toggle"></label>
     </ion-buttons>
   </ion-toolbar>
@@ -42,7 +42,7 @@
       <button class="button">
         Skills
         <ion-icon class="next" name="arrow-forward"></ion-icon>
-      </button>  
+      </button>
     </div>
   </div>
 </ion-content>
