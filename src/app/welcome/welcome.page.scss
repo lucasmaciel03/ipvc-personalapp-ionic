@@ -1,0 +1,56 @@
+ion-toolbar {
+    --background: inherit !important;
+    // remove box shadow
+    --box-shadow: none !important;
+    // remove border
+    --border-width: 0 !important;
+
+    margin-top: 10px;
+ }
+
+ // change size ionic icon
+    ion-icon {
+        font-size: 25px;
+    }
+
+.title{
+    margin-top: 40%;
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    text-align: center;
+    h2 {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+}
+
+.info{
+    margin-top: 170px;
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+    text-align: center;
+    h2 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+}
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+.lg {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px;
+  }
+  .or{
+    font-size: 25px;
+  }
+
+
