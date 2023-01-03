@@ -7,7 +7,7 @@
         height: 40px;
         margin-top: -30px;
         border: unset;
-        background: #fff; //button color
+        //background: var(--ion-color-primary-contrast); //button color
         box-shadow: 0 0 10px rgb(83, 83, 83); //button shadow
     }
 }
@@ -25,11 +25,11 @@ ion-tab-bar {
 }
  
 #tab-button-tab2 ion-icon {
-    color: black;
+    color: var(--ion-color-dark);
 }
 
 ion-icon{
-    color: black;
+    color: var(--ion-color-dark);
 }
 
 
