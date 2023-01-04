@@ -10,10 +10,10 @@
 # 👋🏼 Introduction
 
 <p>Practical Work - Development with Ionic.</p>
+This pratical work aims to create an application that is your professional profile.
 
 
 # 🔒 Requirements
-This pratical work aims to create an application that is your professional profile.
 <p> 
   - White / Dark mode 🌗
 </p>
