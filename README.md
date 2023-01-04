@@ -4,43 +4,71 @@
   </a>
   <h1 align="center"> Personal Pórtfolio - App </h1>
 
-  <h3 align="center">Sistemas Móveis Interativos - Projeto Escolar</h3>
+  <h3 align="center">Interactive Mobile Systems - School Project</h3>
 </p>
 
 # 👋🏼 Introduction
 
-<h3>Trabalho Prático - Desenvolvimento c/ Ionic</h3>
+<h3>Practical Work - Development with Ionic.</h3>
 </br>
 
 
-# 🔒 Requisitos
-Neste trabalho prático pretende-se criar uma aplicação que seja o vosso perfil profissional.
+# 🔒 Requirements
+This pratical work aims to create an application that is your professional profile.
 <p> 
   - White / Dark mode 🌗
 </p>
 <p> 
-  -  Ao clicar em educação, certificações ou projetos abrir uma modal com detalhes
-  -  Ao clicar em educação, certificações ou projetos abrir uma modal com detalhes 📚
+  -  When you click on education, certifications or projects, a modal with details will open 📚
 </p>
 <p>
-  - Figma ou Mockup da aplicação
-  - Figma ou Mockup da aplicação 🎨
+  - Figma or Mockup of the application 🎨
 </p>
 <p>
-  - Utilizar Ionic c/ Angular, utilizar o GitHub e associar o prof ao projeto
-  - Utilizar Ionic c/ Angular, utilizar o GitHub e associar o prof ao projeto  👨🏽‍💻
+  - Use Ionic with Angular, use GitHub and associate the prof to the project 👨🏽‍💻
 </p>
 <p>
-  - Obrigatório que todos os dados sejam carregados dinamicamente
-  - Obrigatório que todos os dados sejam carregados dinamicamente 🎲
+  - It is mandatory that all data be loaded dynamically 🎲
 </p>
 </br>
 
 # 🎯 Bónus
-Começar por carregar todos os dados de forma estática e depois conectar a uma Web para que seja dinâmico.
+Start by loading all data statically and then connect to a web so that it is dynamic.
 <p>
-  - Colocar o projeto online
+  - Put the project online 🌐
 </p>
 <p>
-  - Gestão de dados
+  - Data management 🛠️
 </p>
+
+# 📚 Technologies
+<p>
+  - Ionic 5 
+</p>
+<p>
+  - Angular 11
+</p>
+<p>
+  - TypeScript
+</p>
+<p>
+  - HTML
+</p>
+<p>
+  - CSS
+</p>
+<p>
+  - JavaScript
+</p>
+<p>
+  - GitHub
+</p>
+<p>
+  - Figma
+</p>
+
+# 📱 Preview
+<p align="center">
+  <img src="" alt="Logo" width="auto" height="auto">
+</p>
+
