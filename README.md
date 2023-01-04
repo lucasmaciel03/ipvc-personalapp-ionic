@@ -32,7 +32,7 @@ This pratical work aims to create an application that is your professional profi
 </br>
 
 # 🎯 Bónus
-Start by loading all data statically and then connect to a web so that it is dynamic.
+ - Start by loading all data statically and then connect to a web so that it is dynamic 🎲
 <p>
   - Put the project online 🌐
 </p>
