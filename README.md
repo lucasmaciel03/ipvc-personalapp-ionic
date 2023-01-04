@@ -9,7 +9,7 @@
 
 # 👋🏼 Introduction
 
-<p>>Practical Work - Development with Ionic.</p>
+<p>Practical Work - Development with Ionic.</p>
 
 
 # 🔒 Requirements
