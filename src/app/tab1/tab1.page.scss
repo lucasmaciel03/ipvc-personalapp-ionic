@@ -1,132 +1,153 @@
-.tt{
-    margin-left: -120px;
-    margin-top: 0px;
-    font-size: 25px;
-    
-}
-.tb{
-    height: 50px;
-}
-// .hd{
-//     background-color: var(--ion-color-primary-contrast);
-//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-// }
+  @media screen and (max-width: 480px) {
+    // ! Styles for mobile here 
+    // * ------------ Header ------------ * //
 
-.title{
-    margin-top: 170px;
-    h1 {
+
+    // * ------------ Dark Mode btn ------------ * //
+
+    // * ------------ End Dark Mode btn ------------ * //
+    label {
+      width: 50px;
+      height: 30px;
+      position: relative;
+      display: block;
+      background: #ebebeb;
+      border-radius: 200px;
+      box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+    }
+  
+    label:after {
+      content: "";
+      width: 25px;
+      height: 20px;
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      background: linear-gradient(180deg, silver, white);
+      border-radius: 180px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    input {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+    }
+  
+    input:checked+label {
+      background: #242424;
+    }
+  
+    input:checked+label:after {
+      left: 45px;
+      transform: translateX(-100%);
+      background: linear-gradient(180deg, #777, #3a3a3a);
+    }
+  
+    label,
+    label:after {
+      transition: 0.3s
+    }
+  
+    label:active:after {
+      width: 25px;
+    }
+  
+    // * ------------ End Header ------------ * //
+
+    // * ------------ Content ------------ * //
+
+
+    .title {
+      margin-top: 30px;
+
+      h1 {
         font-size: 90px;
         font-weight: bold;
-    }
-    text-align: center;
-    h2 {
+      }
+
+      text-align: center;
+
+      h2 {
         font-size: 25px;
         margin-top: -20px;
+      }
     }
-}
+
+    .container {
+      position: relative;
+      width: 75%;
+      margin: auto;
+    }
 
 
-.container{
-    margin-top: 30px;
-    position: relative;
-}
-.text {
-    float: left;
-    width: 50%;
-    margin-left: 80px;
-    font-size: 25px;
-  }
-  
-  .image {
-    float: left;
-    margin-left: 20px;
-  }
+    .text {
+      float: left;
+      width: 50%;
+      margin-left: 20px;
+      font-size: 25px;
+    }
 
-  .text, .image {
-    display: inline-block;
-    margin-top: 30px;
-  }
-  
-  ion-icon{
-    font-size: 30px;
-    display: inline-block;
-  }
+    .image {
+      float: right;
+    }
 
-.btn {
-    margin: auto;
-    width: fit-content;
-    margin-top: 280px;
-    margin-left: 200px;
-    display: flex;
-    align-items: center;
-    color: var(--ion-color-primary-contrast);
-    background-color: var(--ion-color-dark);
-    width: 150px;
-    height: 35px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 30px;
-    .next{
+    .text,
+    .image {
+      display: inline-block;
+      margin-top: 30px;
+    }
+
+    ion-icon {
+      font-size: 30px;
+      display: inline-block;
+    }
+
+    .btn-container {
+      margin: auto;
+      width: 75%;
+      text-align: right;
+    }
+
+    .btn {
+      width: fit-content;
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      float: right;
+      color: var(--ion-color-primary-contrast);
+      background-color: var(--ion-color-dark);
+      width: 150px;
+      height: 35px;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 18px;
+      padding-left: 30px;
+
+      .next {
         font-size: 20px;
         margin-left: 30px;
+      }
     }
-}
 
-.mdl-title{
-    // align center
-    margin: auto;
-    width: 50%;
+    // * ------------ End Content ------------ * //
 
-}
-// Style button dark mode
+    // * ------------ Modal ------------ * //
 
-label {
-    width:50px;
-    height:30px;
-    position: relative;
-    display: block;
-    background: #ebebeb;
-    border-radius: 200px;
-    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
-    cursor: pointer;
+    .mdl-title {
+      // align center
+      margin: auto;
+      width: 50%;
+
+    // * ------------ End Modal ------------ * //
+
+
+
+    }
   }
-  
-  label:after {
-    content: "";
-    width:25px;
-    height: 20px;
-    position: absolute;
-    top:5px;
-    left:5px;
-    background: linear-gradient(180deg,silver,white);
-    border-radius: 180px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    /* styles for tablet here */
   }
-  input {
-    width: 0;
-    height: 0;
-    visibility: hidden;
-  }
-  
-  input:checked + label {
-    background: #242424;
-  }
-  
-  input:checked + label:after {
-    left: 45px;
-    transform: translateX(-100%);
-    background: linear-gradient(180deg,#777,#3a3a3a);
-  }
-  label, label:after {
-    transition: 0.3s
-  }
-  
-  label:active:after{ 
-    width: 25px; 
-  }
-  
-  ion-buttons{
-    margin-right: 50px;
-    margin-top: 3px;
-  }
+ 

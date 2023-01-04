@@ -1,136 +1,143 @@
-ion-title{
-    margin-left: -120px;
-    margin-top: 0px;
+@media screen and (max-width: 480px) {
+  .tt {
     font-size: 25px;
-    
-}
-ion-toolbar{
-    height: 50px;
-}
+    text-align: left;
+    margin: 0;
+  }
 
-.container {
+  ion-toolbar{
+    width: 75%;
+    margin: auto;
+  }
+
+  .container {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
     margin-left: 10px;
   }
-  
+
   .row {
     display: flex;
   }
-  
-  .images{
+
+  .images {
     display: flex;
     margin-left: 54px;
     margin-top: 20px;
-    .icon{
+
+    .icon {
       font-size: 25px;
       margin-left: 10px;
     }
   }
+
   .image {
     float: left;
     width: 50%;
     margin-left: 64px;
   }
-  
+
   .text {
     width: 50%;
     font-weight: bold;
     font-size: 60px;
     margin-top: 132px;
   }
-  
-  .description{
+
+  .description {
     margin-left: 64px;
     text-align: left;
-    .desc{
+
+    .desc {
       font-size: 28.9px;
     }
   }
 
-  .infos{
+  .infos {
     margin-left: 64px;
     margin-top: 10px;
     width: 62%;
     text-align: justify;
 
-    .inf{
+    .inf {
       font-size: 18px;
     }
   }
 
 
-.button {
-  margin: auto;
-  width: fit-content;
-  margin-top: 55px;
-  margin-left: -20px;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-  color: var(--ion-color-primary-contrast);
-  background-color: var(--ion-color-dark);
-  width: 150px;
-  height: 35px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 18px;
-  padding-left: 30px;
-  .next{
+  .button {
+    margin: auto;
+    width: fit-content;
+    margin-top: 55px;
+    margin-left: -20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: var(--ion-color-primary-contrast);
+    background-color: var(--ion-color-dark);
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 30px;
+
+    .next {
       font-size: 20px;
       margin-left: 30px;
+    }
   }
 }
 
 // Style button dark mode
 
 label {
-  width:50px;
-  height:30px;
+  width: 50px;
+  height: 30px;
   position: relative;
   display: block;
   background: #ebebeb;
   border-radius: 200px;
-  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }
 
 label:after {
   content: "";
-  width:25px;
+  width: 25px;
   height: 20px;
   position: absolute;
-  top:5px;
-  left:5px;
-  background: linear-gradient(180deg,silver,white);
+  top: 5px;
+  left: 5px;
+  background: linear-gradient(180deg, silver, white);
   border-radius: 180px;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 input {
   width: 0;
   height: 0;
   visibility: hidden;
 }
 
-input:checked + label {
+input:checked+label {
   background: #242424;
 }
 
-input:checked + label:after {
+input:checked+label:after {
   left: 45px;
   transform: translateX(-100%);
-  background: linear-gradient(180deg,#777,#3a3a3a);
+  background: linear-gradient(180deg, #777, #3a3a3a);
 }
-label, label:after {
+
+label,
+label:after {
   transition: 0.3s
 }
 
-label:active:after{ 
-  width: 25px; 
+label:active:after {
+  width: 25px;
 }
 
-ion-buttons{
-  margin-right: 50px;
-  margin-top: 3px;
-}
+

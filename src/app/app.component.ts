@@ -11,7 +11,7 @@ import { NavController } from '@ionic/angular';
 })
 export class AppComponent {
   constructor(public navCtrl: NavController) {
-    this.navCtrl.navigateRoot('/welcome');
+    this.navCtrl.navigateRoot('/tabs/tab1');
   }
 
 }

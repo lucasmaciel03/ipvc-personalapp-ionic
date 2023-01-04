@@ -1,6 +1,6 @@
 <ion-header [translucent]="true" class="hd">
   <ion-toolbar class="tb">
-    <ion-title class="tt">
+    <ion-title class="tt" slot="start">
       <b>
         Skills
       </b>
@@ -12,7 +12,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" >
 
   <div class="title-content">
     <div class="title">
@@ -40,11 +40,13 @@
         <ion-icon name="alert-circle" (click)="setOpen3(true)"></ion-icon>
       </div>
     </div>
+    <div class="btn-container">
+      <button class="btn">
+        School
+        <ion-icon class="next" name="arrow-forward"></ion-icon>
+      </button>
+    </div>
   </div>
-  <button class="btn">
-    School
-    <ion-icon class="next" name="arrow-forward"></ion-icon>
-  </button>
 </ion-content>
 
 <!-- Modal Design start -->

@@ -14,10 +14,11 @@ ion-toolbar {
     }
 
 .title{
-    margin-top: 40%;
+    margin-top: 10%;
     h1 {
         font-size: 60px;
         font-weight: bold;
+        
     }
     text-align: center;
     h2 {
@@ -48,6 +49,7 @@ ion-toolbar {
     font-size: 50px;
     font-weight: bold;
     padding: 50px;
+    cursor: pointer;
   }
   .or{
     font-size: 25px;
