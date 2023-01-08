@@ -8,11 +8,14 @@ import { WelcomePageRoutingModule } from './welcome-routing.module';
 
 import { WelcomePage } from './welcome.page';
 
+import{ TranslateModule} from'@ngx-translate/core';
+
 @NgModule({
   imports: [
+    IonicModule,
     CommonModule,
     FormsModule,
-    IonicModule,
+    TranslateModule,
     WelcomePageRoutingModule
   ],
   declarations: [WelcomePage]

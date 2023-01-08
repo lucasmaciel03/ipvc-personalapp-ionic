@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
 import { Preferences } from '@capacitor/preferences';
 
-
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  constructor(
+
+  ) {}
+
   isChecked : boolean = false;
 
   isModalOpen = false;
@@ -34,4 +37,5 @@ export class Tab1Page {
     this.isChecked = !this.isChecked;
     await Preferences.set({ key: 'darkmode', value: this.isChecked ? 'true' : 'false' });
   }
+
 }

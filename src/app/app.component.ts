@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
-import { WelcomePage } from './welcome/welcome.page';
 import { NavController } from '@ionic/angular';
-
+import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
+import { LocalizationService } from './services/localization/localization.service';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +10,18 @@ import { NavController } from '@ionic/angular';
   
 })
 export class AppComponent {
-  constructor(public navCtrl: NavController) {
-    this.navCtrl.navigateRoot('/tabs/tab1');
+  constructor(
+    public navCtrl: NavController,
+    private platform: Platform,
+    private localizationService: LocalizationService) {
+      this.navCtrl.navigateRoot('/welcome');
   }
 
+  async ngOnInit() {
+    await this.initializeApp();
+  }
+  async initializeApp() {
+    await this.platform.ready();
+    await this.localizationService.setInitialAppLanguage();
+  }
 }

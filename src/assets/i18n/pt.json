@@ -1,5 +1,14 @@
 {
+    "alwaysgrowup" : "Sempre a Evoluir",
+    "my" : "Minha",
+    "conctact" : "Contactos",
+    "list" : "Lista",
+    "close" : "Fechar",
     "school" : "Escola",
-    "always_grow_up" : "Sempre evoluir"
-
+    "know_more" : "Saber Mais",
+    "hi" : "Olá!",
+    "im" : "Sou o",
+    "about_me" : "Estudante de Desenvolvimento Web, moro na Póvoa de Varzim, Porto.",
+    "leave_comment" : "Deixe um comentário!",
+    "submit" : "Enviar"
 }
