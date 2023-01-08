@@ -1,11 +1,4 @@
-@media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
-  /* regras de estilo aqui */
-  .tb{
-    width: 100%;
-    font-size: 120px;
-    margin-left: -100px;
-  }
-}
+
   
   @media screen and (max-width: 480px) {
     // ! Styles for mobile here 
@@ -15,8 +8,9 @@
       margin: auto;
     }
     .tb{
-      width: 75%;
+      width: 100%;
       margin: auto;
+      align-items: left ;
     }
 
     // * ------------ Dark Mode btn ------------ * //
