@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-title slot="start" class="tt">
       <b>
-        Projects
+        {{ 'projects' | translate }}
       </b>
     </ion-title>
     <ion-buttons slot="end" (click)="changeDarkMode()">
@@ -17,7 +17,7 @@
     <div class="row">
       <button class="button-top">
         <ion-icon class="icon2" name="game-controller"></ion-icon>
-        <p>Tic Tac Toe</p>
+        <p>{{ 'tic_tac_toe' | translate }}</p>
       </button>
     </div>
     <div class="row">
@@ -27,13 +27,13 @@
       </button>
       <button class="button">
         <ion-icon class="icon" name="stats-chart"></ion-icon>
-        <p>Company Software</p>
+        <p>{{ 'company_software' | translate }}</p>
       </button>
     </div>
     <div class="row">
       <button class="button-center">
         <ion-icon class="icon2" name="logo-github"></ion-icon>
-        <p>See More...</p>
+        <p>{{ 'see_more' | translate}}</p>
       </button>
     </div>
   </div>

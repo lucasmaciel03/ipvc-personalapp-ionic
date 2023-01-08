@@ -1,7 +1,7 @@
 {
     "alwaysgrowup" : "Always Grow Up",
     "my" : "My",
-    "conctact" : "Contact",
+    "contact" : "Contact",
     "list" : "List",
     "close" : "Close",
     "school" : "School",
@@ -10,5 +10,18 @@
     "im" : "I'm",
     "about_me" : "Web Dev student, based in Póvoa de Varzim, Porto.",
     "leave_comment" : "Leave your comment!",
-    "submit" : "Submit"
+    "submit" : "Submit",
+    "see_more" : "See more ...",
+    "tic_tac_toe" : "Tic Tac Toe",
+    "company_software" : "Company Software",
+    "friend" : "Friend",
+    "name" : "Name:",
+    "first_last" : "First and Last name",
+    "relation" : "Relation:",
+    "message" : "Message:",
+    "skills" : "Skills",
+    "comments" : "Comments",
+    "home" : "Home",
+    "projects" : "Projects"
+
 }

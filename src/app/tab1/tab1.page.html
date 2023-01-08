@@ -2,7 +2,7 @@
   <ion-toolbar class="tb">
     <ion-title class="tt" slot="start">
       <b>
-        Skills
+        {{ 'skills' | translate }}
       </b>
     </ion-title>
     <ion-buttons slot="end" (click)="changeDarkMode()">
@@ -42,7 +42,7 @@
     </div>
     <div class="btn-container">
       <button class="btn" routerLink="/tabs/tab3">
-        School
+        {{ 'school' | translate }}
         <ion-icon class="next" name="arrow-forward"></ion-icon>
       </button>
     </div>
@@ -56,13 +56,13 @@
       <ion-toolbar>
         <ion-title>Design</ion-title>
         <ion-buttons slot="end">
-          <ion-button (click)="setOpen(false)">Close</ion-button>
+          <ion-button (click)="setOpen(false)">{{ 'close' | translate}}</ion-button>
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
     <ion-content>
       <div class="mdl-title">
-        <h1>My <b>Contact</b> List</h1>
+        <h1> {{'my' | translate }} <b> {{'contact' | translate }} </b> {{'list' | translate }}</h1>
       </div>
       <ion-list>
         <ion-item>
@@ -120,7 +120,7 @@
     </ion-header>
     <ion-content>
       <div class="mdl-title">
-        <h1>My <b>Contact</b> List</h1>
+        <h1> {{'my' | translate }} <b> {{'contact' | translate }} </b> {{'list' | translate }}</h1>
       </div>
       <ion-list>
         <ion-item>
@@ -178,7 +178,7 @@
     </ion-header>
     <ion-content>
       <div class="mdl-title">
-        <h1>My <b>Contact</b> List</h1>
+        <h1> {{'my' | translate }} <b> {{'contact' | translate }} </b> {{'list' | translate }}</h1>
       </div>
       <ion-list>
         <ion-item>

@@ -2,7 +2,7 @@
   <ion-toolbar class="tb">
     <ion-title class="tt" slot="start">
       <b>
-        Home
+        {{ 'home' | translate }}
       </b>
     </ion-title>
     <ion-buttons slot="end" (click)="changeDarkMode()">
@@ -21,10 +21,10 @@
       <div class="text">{{ 'hi' | translate  }}</div>
     </div>
     <div class="description">
-      <div class="desc">I'm <b>Lucas Maciel</b></div>
+      <div class="desc">{{ 'im' | translate  }} <b>Lucas Maciel</b></div>
     </div>
     <div class="infos">
-      <div class="inf">Web Dev student, based in Póvoa de Varzim, Porto</div>
+      <div class="inf">{{ 'about_me' | translate}}</div>
     </div>
     <div class="images">
       <div class="icon">

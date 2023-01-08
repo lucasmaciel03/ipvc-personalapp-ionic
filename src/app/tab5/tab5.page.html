@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-title class="tt" slot="start">
       <b>
-        Comments
+        {{ 'comments' | translate }}
       </b>
     </ion-title>
     <ion-buttons slot="end" (click)="changeDarkMode()">
@@ -40,18 +40,18 @@
     </ion-slides>
   </ion-card>
   <div>
-    <h2>Leave your Comment!</h2>
+    <h2>{{ 'leave_comment' | translate}}</h2>
     <ion-card>
       <ion-card-header>
 
         <ion-item fill="solid">
-          <ion-label position="floating">Name:</ion-label>
+          <ion-label position="floating">{{ 'name' | translate }}</ion-label>
           <ion-input type="text" required></ion-input>
-          <ion-note slot="helper">First and Last Name</ion-note>
+          <ion-note slot="helper">{{ 'first_last' | translate }}</ion-note>
           <ion-note slot="error">Name is required</ion-note>
 
         </ion-item>
-        <ion-select placeholder="Relation">
+        <ion-select placeholder="{{ 'relation' | translate}}">
           <ion-select-option value="opcao1">Friend</ion-select-option>
           <ion-select-option value="opcao2">Client</ion-select-option>
           <ion-select-option value="opcao3">Teacher</ion-select-option>
@@ -60,7 +60,7 @@
       </ion-card-header>
       <ion-card-content>
         <ion-item counter="true">
-          <ion-label position="floating"><b>Message:</b></ion-label>
+          <ion-label position="floating"><b>{{ 'message' | translate }}</b></ion-label>
           <ion-input maxlength="100"></ion-input>
         </ion-item>
       </ion-card-content>
@@ -68,7 +68,7 @@
   </div>
   <div class="btn-container">
     <button>
-      Submit
+      {{ 'submit' | translate }}
       <ion-icon class="next" name="arrow-forward"></ion-icon>
     </button>  
   </div>

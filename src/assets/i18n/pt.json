@@ -1,8 +1,8 @@
 {
     "alwaysgrowup" : "Sempre a Evoluir",
-    "my" : "Minha",
-    "conctact" : "Contactos",
-    "list" : "Lista",
+    "my" : "Meus",
+    "contact" : "Contactos",
+    "list" : " ",
     "close" : "Fechar",
     "school" : "Escola",
     "know_more" : "Saber Mais",
@@ -10,5 +10,17 @@
     "im" : "Sou o",
     "about_me" : "Estudante de Desenvolvimento Web, moro na Póvoa de Varzim, Porto.",
     "leave_comment" : "Deixe um comentário!",
-    "submit" : "Enviar"
+    "submit" : "Enviar",
+    "see_more" : "Ver Mais ...",
+    "tic_tac_toe" : "Jogo do Galo",
+    "company_software" : "Software Contabilidade",
+    "friend" : "Amigo",
+    "name" : "Nome:",
+    "first_last" : "Primeiro e Último Nome",
+    "relation" : "Relação:",
+    "message" : "Mensagem:",
+    "skills" : "Habilidades",
+    "comments" : "Comentários",
+    "home" : "Início",
+    "projects" : "Projetos"
 }
