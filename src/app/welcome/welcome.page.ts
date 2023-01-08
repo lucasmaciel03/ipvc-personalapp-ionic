@@ -43,11 +43,11 @@ export class WelcomePage implements OnInit {
 
   async changeLanguage(language: string) {
     await Preferences.set({ key: 'user-lang', value: language });
-    this.loadingSpinner();
+    this.showToast(language);
     setTimeout(() => {
       this.translateService.use(language);
       this.showToast(language);
-    }, 1000);
+    }, 2000);
     this.goToTab1();
   }
 
