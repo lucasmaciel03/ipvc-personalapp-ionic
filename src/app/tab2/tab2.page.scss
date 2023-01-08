@@ -2,12 +2,13 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 10px;
   }
 
   .row {
     display: flex;
+    position: relative;
   }
 
   .images {
@@ -28,10 +29,15 @@
   }
 
   .text {
-    width: 50%;
+    width: 33%;
+    height: 100px;
+    margin-right: 10;
     font-weight: bold;
     font-size: 60px;
-    margin-top: 132px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    padding: 27px 0px 0px 0px;
   }
 
   .description {

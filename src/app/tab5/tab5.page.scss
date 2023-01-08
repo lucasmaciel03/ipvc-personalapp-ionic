@@ -11,10 +11,15 @@ h2{
     font-size: 25px;
 }
 
-.button {
-    margin: auto;
-    width: fit-content;
-    margin-left: 240px;
+.btn-container{
+  width: 80%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+button {
     display: flex;
     align-items: center;
     color: var(--ion-color-primary-contrast);
@@ -25,6 +30,7 @@ h2{
     text-align: center;
     font-size: 18px;
     padding-left: 30px;
+
     .next{
         font-size: 20px;
         margin-left: 30px;
