@@ -1,9 +1,9 @@
 @media only screen and (max-device-width: 736px) and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
   /* regras de estilo aqui */
   .tb{
-    width: 20%;
+    width: 100%;
     font-size: 120px;
-    color: aqua;
+    margin-left: -100px;
   }
 }
   
@@ -154,7 +154,8 @@
     .mdl-title {
       // align center
       margin: auto;
-      width: 50%;
+      width: 100%;
+      text-align: center;
 
     // * ------------ End Modal ------------ * //
 
