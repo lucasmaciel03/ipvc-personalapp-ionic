@@ -17,10 +17,15 @@ export class Tab2Page {
     this.isChecked = (await Preferences.get({ key: 'darkmode' })).value === 'true';
   }
 
-
   async changeDarkMode() { 
     this.isChecked = !this.isChecked;
     await Preferences.set({ key: 'darkmode', value: this.isChecked ? 'true' : 'false' });
+
+    if (this.isChecked) {
+      document.body.setAttribute('color-theme', 'dark');
+    } else {
+      document.body.removeAttribute('color-theme');
+    }
   }
   
   async tab1() {

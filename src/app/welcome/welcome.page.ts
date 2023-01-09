@@ -14,7 +14,7 @@ import { LoadingController } from '@ionic/angular';
   styleUrls: ['./welcome.page.scss'],
 })
 export class WelcomePage implements OnInit {
-  // @Input() isChecked : boolean; 
+  @Input() isChecked: boolean | undefined;
 
   constructor(
     public navCtrl: NavController,
@@ -69,6 +69,26 @@ export class WelcomePage implements OnInit {
     }
   }
 
+  async changeDarkMode() {
+    this.isChecked = !this.isChecked;
 
+    await Preferences.set({
+      key: 'darkmode',
+      value: this.isChecked ? 'true' : 'false',
+    });
+
+    if (this.isChecked) {
+      document.body.setAttribute('color-theme', 'dark');
+    } else {
+      document.body.removeAttribute('color-theme');
+    }
+  }
+
+  getIcon() {
+    if (this.isChecked) {
+      return 'sunny';
+    }
+    return 'moon';
+  }
 
 }
