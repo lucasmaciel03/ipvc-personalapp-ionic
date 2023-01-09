@@ -46,7 +46,6 @@ export class WelcomePage implements OnInit {
     this.showToast(language);
     setTimeout(() => {
       this.translateService.use(language);
-      this.showToast(language);
     }, 2000);
     this.goToTab1();
   }
