@@ -14,7 +14,7 @@ export class AppComponent {
     public navCtrl: NavController,
     private platform: Platform,
     private localizationService: LocalizationService) {
-      this.navCtrl.navigateRoot('tabs/tab4');
+      this.navCtrl.navigateRoot('/welcome');
   }
 
   async ngOnInit() {
