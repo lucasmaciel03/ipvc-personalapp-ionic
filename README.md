@@ -42,10 +42,10 @@ This pratical work aims to create an application that is your professional profi
 
 # 📚 Technologies
 <p>
-  - Ionic 5 
+  - Ionic 6
 </p>
 <p>
-  - Angular 11
+  - Angular
 </p>
 <p>
   - TypeScript
