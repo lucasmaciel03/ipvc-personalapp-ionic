@@ -16,25 +16,26 @@
   <div class="container">
     <div class="row">
       <button class="button-top">
-        <ion-icon class="icon2" name="game-controller"></ion-icon>
+        <ion-icon class="icon2" name="game-controller" (click)="presentAlert()"></ion-icon>
         <p>{{ 'tic_tac_toe' | translate }}</p>
       </button>
     </div>
     <div class="row">
       <button class="button">
-        <ion-icon class="icon" name="film"></ion-icon>
+        <ion-icon class="icon" name="film" (click)="presentAlert2()"></ion-icon>
         <p>Video Club</p>
       </button>
       <button class="button">
-        <ion-icon class="icon" name="stats-chart"></ion-icon>
+        <ion-icon class="icon" name="stats-chart" (click)="presentAlert3()"></ion-icon>
         <p>{{ 'company_software' | translate }}</p>
       </button>
     </div>
     <div class="row">
-      <button class="button-center">
+      <button class="button-center"  href="https://github.com/lucasmaciel03" target="_blank">
         <ion-icon class="icon2" name="logo-github"></ion-icon>
         <p>{{ 'see_more' | translate}}</p>
       </button>
     </div>
   </div>
 </ion-content>
+
